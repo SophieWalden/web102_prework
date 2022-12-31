@@ -35,12 +35,17 @@ function addGamesToPage(games) {
         let newDiv = document.createElement("div");
         newDiv.classList.add("game-card");
 
+        let pledgedPercent = game.pledged / game.goal * 100;
+        pledgedPercent = pledgedPercent > 100 ? 100 : pledgedPercent
+        
+
         let display = `
             <div>
+                <h3> ${game.name} </h3>
                 <img src=${game.img} class="game-img">
-                <p> Pleged: ${game.pledged} </p>
-                <p> Goal: ${game.goal} </p>
-
+                <p> ${game.description} </p>
+                <p> Amount Pledged: ${game.pledged}/${game.goal}</p>
+                 <progress value="${pledgedPercent}" max = 100 />
             </div>
         `;
 
@@ -228,3 +233,23 @@ firstGameContainer.appendChild(topGameElement);
 let secondGameElement = document.createElement("p")
 secondGameElement.innerHTML = secondGame.name;
 secondGameContainer.appendChild(secondGameElement);
+
+
+
+// Search Bar
+
+function sortGamesByPrefix(prefix){
+    deleteChildElements(gamesContainer);
+
+
+    let gamesWithPrefix = GAMES_JSON.filter((game) => {
+        return game.name.toLowerCase().startsWith(prefix);
+    })
+
+    addGamesToPage(gamesWithPrefix);
+}
+
+let searchBar = document.getElementById("searchBar");
+searchBar.addEventListener("input", function(e){
+    sortGamesByPrefix(this.value)
+})
