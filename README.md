@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/cujPP0A.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://i.imgur.com/cujPP0A.gif">View Explanation GIF </a>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
@@ -36,7 +36,7 @@ GIF created with LICEcap
 
 ## Notes
 
-Hardest challenge was getting all the files organized and uploaded to Github properly.
+Hardest challenge was getting all the files organized and uploaded to Github properly. The GIF link was finnicky and I could not get it to work with the image tag so you have to go to the link to view it.
 
 ## License
 
