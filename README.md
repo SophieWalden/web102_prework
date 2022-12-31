@@ -25,9 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-
-<img src='https://imgur.com/cujPP0A' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="cujPP0A"><a href="https://imgur.com/cujPP0A">View on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
@@ -38,7 +36,7 @@ GIF created with LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Hardest challenge was getting all the files organized and uploaded to Github properly. 
 
 ## License
 
