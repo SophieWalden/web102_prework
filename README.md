@@ -36,7 +36,7 @@ GIF created with LICEcap
 
 ## Notes
 
-Hardest challenge was getting all the files organized and uploaded to Github properly. 
+Hardest challenge was getting all the files organized and uploaded to Github properly. The GIF link wasn't fully working which means the explanation has to be viewed on the imgur website. 
 
 ## License
 
