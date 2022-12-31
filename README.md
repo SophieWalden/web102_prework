@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="cujPP0A"><a href="https://imgur.com/cujPP0A">View on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src='https://i.imgur.com/cujPP0A.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
@@ -36,7 +36,7 @@ GIF created with LICEcap
 
 ## Notes
 
-Hardest challenge was getting all the files organized and uploaded to Github properly. The GIF link wasn't fully working which means the explanation has to be viewed on the imgur website. 
+Hardest challenge was getting all the files organized and uploaded to Github properly.
 
 ## License
 
